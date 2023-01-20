@@ -42,6 +42,7 @@ ul{
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+
 .menu-item{
   cursor: pointer;
   text-decoration: none;
@@ -55,11 +56,10 @@ ul{
 .menu-item:active,
 .menu-item:focus{
   color: var(--active-and-hover-color);
- 
-}
+ }
 .contact-detail{
   text-decoration: none;
-  color: var(--contact-info-header);
+  color: var(--contact-detail-header);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -73,7 +73,6 @@ ul{
   background-color: var(--heading-bg-color);
 }
 .effective-solution-title {
-  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -89,8 +88,9 @@ ul{
   line-height: 1.8;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--webstudio-color);
+  background-color: var(--request-our-service-color);
   color: var(--request-studio-color);
+  cursor: pointer;
 }
 
 .features-title {
@@ -102,7 +102,6 @@ ul{
 
 }
 .features-description{
-  
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -127,7 +126,6 @@ ul{
   letter-spacing: 0.03em;
 }
 .profession{
- 
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -150,11 +148,11 @@ background-color: var(--footer-bg-color);
 }
 .contact-detail-footer{
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--contact-info-footer);
+  color: var(--contact-detail-footer);
 }
 .contact-detail-footer:hover,
 .contact-detail-footer:active,
@@ -190,3 +188,8 @@ background-color: var(--footer-bg-color);
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
+
+.nav-link-current{
+  color:#2196F3;
+}
+
