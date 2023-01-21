@@ -15,12 +15,11 @@
   --our-team-bg-color: #F5F4FA;
   --description-color: #757575;
   --active-and-hover-color: #2196F3;
-  --white-text-color-: #FFFFFF;
+  --white-text-color: #FFFFFF;
   --button-bg-color:#F5F4FA;
   --address-footer-color: #FFFFFF;
   --contact-detail-footer:rgba(255, 255, 255, 0.6);
   --footer-bg-color: #2F303A;
-  
 }
 
 body{
@@ -41,6 +40,9 @@ ul{
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+button{
+  cursor: pointer;
 }
 
 .menu-item{
@@ -93,6 +95,12 @@ ul{
   cursor: pointer;
 }
 
+.request-our-service-button:hover,
+.request-our-service-button:focus{
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: var(--request-our-service-hover-color);
+}
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -169,12 +177,12 @@ background-color: var(--footer-bg-color);
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .button-item:hover,
 .button-item:focus{
   background-color: var(--active-and-hover-color);
   color: var(--white-text-color);
-  cursor: pointer;
 }
 .project-example{
   font-weight: 700;
